@@ -26,6 +26,6 @@ module AND_gate(
     output out
     );
     
-    assign out = A ~| B;
+    assign out = A & B;
     
 endmodule
